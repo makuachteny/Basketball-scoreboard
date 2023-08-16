@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basketball Scoreboard</title>
+        <!-- fonts -->
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <!-- custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h2> JIAMINI SCOREBOARD</h2>
+            <div class="board">
+                <div class="home">
+                    <h1>HOME</h1>
+                    <p id="home-scroe">18</p>
+                    <button onclick="add1('home')">+1</button>
+                    <button onclick="add2('home')">+2</button>
+                    <button onclick="add3('home')">+3</button>
+                </div>
+                <div class="guest">
+                    <h1>GUEST</h1>
+                    <p id="guest-score">10</p>
+                    <button onclick="add1('guest')">+1</button>
+                    <button onclick="add2('guest')">+2</button>
+                    <button onclick="add3('guest')">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
