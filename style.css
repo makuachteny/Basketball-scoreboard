@@ -79,7 +79,15 @@ button {
     letter-spacing: 0em;
     text-align: center;
 }
-
+#reset {
+    width: 20%;
+padding: 4px;
+margin: 5px auto;
+border-radius: 15px;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
 /* .home
 {
     display: grid;
